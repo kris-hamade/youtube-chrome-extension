@@ -1,1 +1,1 @@
-youtube-chrome-extension
+This extension will automatically like YouTube videos as you play them. Helping contribute to the creators you love and want to support!

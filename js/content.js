@@ -18,4 +18,11 @@ const likeFunction = async () => {
     }
 };
 
-likeFunction()
+const monitorVideoChange = setInterval(function() {
+    if (document.querySelector('#container > h1')) {
+        //clearInterval(monitorVideoChange);
+        likeFunction();
+    }
+}, 5000)
+
+window.onload = likeFunction() && monitorVideoChange()

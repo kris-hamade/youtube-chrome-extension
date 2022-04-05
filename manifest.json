@@ -8,17 +8,8 @@
         "48": "/icons/48x48.png",
         "128": "/icons/128x128.png"
     },
-    "page_action": {
-        "default_icon": {
-            "16": "/icons/16x16.png",
-            "48": "/icons/48x48.png",
-            "128": "/icons/128x128.png"
-        }
-    },
-    "content_scripts": [
-        {
-            "matches": ["https://www.youtube.com/*"],
-            "js": ["/js/content.js"]
-        }
-    ]
+    "content_scripts": [{
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["/js/content.js"]
+    }]
 }
